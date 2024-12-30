@@ -23,7 +23,7 @@ jobs:
           cache: yarn
 
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cached-node_modules
         with:
           path: |
@@ -50,7 +50,7 @@ jobs:
           cache: yarn
 
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cached-node_modules
         with:
           path: |
@@ -94,7 +94,7 @@ jobs:
           cache: yarn
 
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cached-node_modules
         with:
           path: |
@@ -139,7 +139,7 @@ jobs:
           cache: yarn
 
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cached-node_modules
         with:
           path: |
